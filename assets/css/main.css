@@ -1,0 +1,28 @@
+:root {
+  cursor: default;
+}
+
+.card {
+  -webkit-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.card:hover {
+  -webkit-box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.2);
+          box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.2);
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+.links a {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.links a:hover {
+  -webkit-filter: brightness(0.8);
+          filter: brightness(0.8);
+}
+/*# sourceMappingURL=main.css.map */
